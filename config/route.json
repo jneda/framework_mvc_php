@@ -18,6 +18,9 @@
     "controller": "Home",
     "action": "Authenticate",
     "method": "POST",
-    "params": []
+    "params": [
+      "login",
+      "password"
+    ]
   }
 ]
