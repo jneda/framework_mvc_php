@@ -1,0 +1,15 @@
+{
+  "autoloadFolders": [
+    "framework",
+    "controller",
+    "model",
+    "framework/exception"
+  ],
+  "database": {
+    "name": "Base de données",
+    "dbname": "databse",
+    "host": "localhost",
+    "user": "user",
+    "password": "pwd"
+  }
+}
