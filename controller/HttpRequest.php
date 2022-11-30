@@ -5,6 +5,7 @@ class HttpRequest
   private $url;
   private $method;
   private $params;
+  private $route;
 
   public function __construct()
   {
@@ -25,5 +26,10 @@ class HttpRequest
   public function getParams()
   {
     return $this->params;
+  }
+
+  public function setRoute($route)
+  {
+    $this->route = $route;
   }
 }
