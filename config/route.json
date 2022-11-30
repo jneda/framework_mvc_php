@@ -1,0 +1,23 @@
+[
+  {
+    "path": "/",
+    "controller": "Home",
+    "action": "Home",
+    "method": "GET",
+    "params": []
+  },
+  {
+    "path": "/login",
+    "controller": "Home",
+    "action": "Login",
+    "method": "GET",
+    "params": []
+  },
+  {
+    "path": "/login",
+    "controller": "Home",
+    "action": "Authenticate",
+    "method": "POST",
+    "params": []
+  }
+]
