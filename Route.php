@@ -14,7 +14,7 @@ class Route
     $this->controller = $route->controller;
     $this->action = $route->action;
     $this->method = $route->method;
-    $this->param = $route->param;
+    $this->params = $route->params;
   }
 
   public function getPath()
@@ -37,8 +37,8 @@ class Route
     return $this->method;
   }
 
-  public function getParam()
+  public function getParams()
   {
-    return $this->param;
+    return $this->params;
   }
 }
